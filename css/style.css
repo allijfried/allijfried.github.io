@@ -2,3 +2,9 @@ body{
 	font-family: 'Raleway';
 	font-weight: 300;
 }
+
+.main-info{
+	 max-width: 500px;
+	 margin: 0 auto;
+	 text-align: center;
+}
