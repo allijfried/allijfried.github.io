@@ -1,11 +1,16 @@
 body{
 	font-family: 'Raleway';
 	font-weight: 300;
+	background-color: #EAEAEA;
 }
 
+header{
+	background-color: gray;
+}
 
 nav{
 	background-color: #FFF;
+	padding: 5px;
 }
 
 
@@ -17,7 +22,7 @@ nav{
 
 .header-img {
     float: left;
-    height: 50px;
+    height: 100px;
     padding-left: 1em;
 }
 h1{
@@ -28,7 +33,9 @@ h1{
 ul { list-style-type: none; }
 
 nav ul li { 
-	display: inline-block; 
+	display: inline-block;
+	text-align: right;
+	padding-left: 1.5em;
 }
 
 nav ul li a {
