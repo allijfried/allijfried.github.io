@@ -30,7 +30,17 @@ h1{
 	font-weight: 700;
 }
 
-ul { list-style-type: none; }
+header > h1
+.nav-title{
+	font-size: 2em;
+}
+
+ul { 
+	list-style-type: none; 
+	font-size: 14px;
+	font-weight: 300;
+
+}
 
 nav ul li { 
 	display: inline-block;
