@@ -2,13 +2,6 @@ html, body{
 	margin: 0;
 }
 
-
-/*
-div{
-	border: 1px solid red;
-}
-*/
-
 body{
 	font-family: 'Raleway';
 	font-weight: 300;
@@ -20,8 +13,10 @@ h1{
 	font-weight: 700;
 }
 
+
+
 header{
-	height: 115px;
+	height: 75px;
 }
 
 nav{
@@ -70,10 +65,11 @@ nav ul li {
 nav ul li a {
 	text-decoration: none;
 }
-
+/*
 .content{
 	padding-top:10px;
 }
+*/
 
 #profile-pic{
 	width:300px;
@@ -82,8 +78,21 @@ nav ul li a {
 	padding-bottom: 5px;
 }
 
-@media (max-width: 700px){
+
+
+
+/* media queries */
+
+@media (max-width: 401px){
+
+}
+
+@media(max-width: 601px){	/*change nav to be the hamburger icon*/
 	nav ul{
 		margin-top: 0px;
-	}
+}
+
+
+@media(max-width: 1121px){
+
 }
