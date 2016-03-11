@@ -83,6 +83,11 @@ ul{
 	z-index: 99;
 }
 
+
+.legaline{
+	font-size: 10px;
+	font-weight: 300;
+}
 /* media queries */
 
 /*@media (max-width: 401px){
