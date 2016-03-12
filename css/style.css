@@ -1,3 +1,32 @@
+*{
+	box-sizing: border-box;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"]{
+	float: left;
+	padding: 15px;
+	border: 1px solid red;
+}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
 html, body{
 	margin: 0;
 }
@@ -80,8 +109,11 @@ header >  nav ul li a:hover{
 	margina: 0px;
 }
 
+#heroshot h1{
+	display:inline;
+}
 .content{
-	padding: 50px;
+	padding: 0px 50px;
 }
 
 
@@ -142,15 +174,17 @@ header >  nav ul li a:hover{
 }
 
 
-/*Button Styles */
+/*BUTTON STYLES */
 .button {
 	height: 2em;
-	width: 5em;
+	width: 10em;
 	background: rgba(68,44,121, 0.5);
+	border: 2px solid rgba(68,44,121, 0.6);
   	padding: 5px 40px;
 	display: block;
+	border-radius: 0.5em;
 
-/*Text Styles for Buttons */
+/*TEXT STYLES FOR BUTTON */
 	color: white;
 	text-align: center;
 	vertical-align: middle;
