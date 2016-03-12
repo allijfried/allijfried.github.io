@@ -226,7 +226,7 @@ footer > .legaline{
 }
 /* MEDIA QUERIES */
 
-@media only screen and (max-width: 601px) {
+@media only screen and (max-width: 330px) {
 	.section-content > div {
 	    display: block;
 	}
@@ -234,8 +234,8 @@ footer > .legaline{
 		padding: 10px;
 		color: black;
 		text-decoration: none;
-/*		font-size: 11px;
-*/	}
+		font-size: 11px;
+	}
 
 	header > nav ul li a:hover {
 		padding: 10px;
