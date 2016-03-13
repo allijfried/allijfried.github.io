@@ -205,12 +205,14 @@ header >  nav ul li a:hover{
 	padding: 0 0.5em; 
 	opacity: 0.2;
 	float: none;
+	margin: 0;
 }
 
 .social:hover {
 	height:2.5em; 
-	padding: 0 1em; 
+	padding: 0 0.5em; 
 	opacity: 0.9;
+	margin: 0;
 }
 
 /* FOOTER */
