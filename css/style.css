@@ -239,9 +239,12 @@ footer > .legaline{
 	font-size: .75em;
 	font-weight: 300;
 	text-align: center;
-	padding-bottom: 1em;
+	margin-top: -10px;
 }
 
+#contact > h3, h4{
+	margin: 10px;
+}
 
 /* LOGO PAGE */
 h1.portfoliotitle{
