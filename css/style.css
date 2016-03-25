@@ -139,6 +139,11 @@ img{
 	display: block;
 }
 
+#portfolio{
+	max-width: 50em;
+    margin: 0 auto;
+}
+
 .portfolio-img {
     display: block;
     width: 100%;
