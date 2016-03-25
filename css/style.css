@@ -146,9 +146,9 @@ img{
 
 .portfolio-img {
     display: block;
-    width: 100%;
-    align-items: center;
     padding: 5px;
+    width: 50%;
+    float: left;
 }
 
 
@@ -161,11 +161,6 @@ img{
 
 }
 
-
-.content-section > div {
-    display: inline-block;
-    margin: 20px;
-}
 
 .content-section {
 	margin-top: 1em;
@@ -181,6 +176,8 @@ img{
 .portfolio-img{
 	display: block;
 	max-width: 90%;
+	float: left;
+	text-align: center;
 }
 
 .portfolio-img:hover{
@@ -292,6 +289,10 @@ h1.portfoliotitle{
 	    margin-top: -1em;
 	    border-bottom: none;
 	}
+
+	.portfolio-img{
+		width: 100%;
+	}
 }
 
 @media only screen and (max-width: 400px) {
@@ -320,6 +321,9 @@ h1.portfoliotitle{
 		padding-left: 1em;
 	}
 
+	.portfolio-img{
+		width: 100%;
+	}
 }
 /*@media(max-width: 1121px){
 
