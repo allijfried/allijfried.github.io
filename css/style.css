@@ -161,15 +161,15 @@ p, a, img{
 .portfolioContainer{
 	overflow: hidden;
 	position: relative;
-	padding-left: 10%;
-	padding-right: 10%;
+	padding-left: 9%;
+	padding-right: 9%;
 }
 
 .portfolio-img{
 	display: block;
 	float: left;
 	text-align: center;
-    padding: 5px;
+    padding: 10px;
 /*    width: 100%;
 */}
 
