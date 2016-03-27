@@ -48,8 +48,7 @@ header > nav {
 header > nav ul { 
 	list-style-type: none; 
 	margin-top: 40px;
-/*	max-width: 90%;
-*/	float: none;
+	float: none;
 }
 
 header > nav ul li { 
@@ -111,56 +110,23 @@ p, a, img{
 	text-decoration: none;
 }
 
-img{
+/*img{
 	display: block;
 	margin: auto;
-}
-
-#about{
-	max-width: 50em;
-	margin: 0 auto;
-}
-
-#about-alli{
-	text-align: center;
-}
-
-
-#jobrole{
-	text-align: center;
-}
-
-#contact{
-	text-align: center;
-}
-
-#contactinfo{ 
-	text-align: center; 
-	display: block;
-}
-
-#portfolio{
-	max-width: 50em;
-    margin: 0 auto;
-}
-
-.portfolio-img {
-    display: block;
-    padding: 5px;
-    width: 50%;
-    float: left;
-}
+}*/
 
 
 
-/* SECTIONS */
+/*/////////////////////
+////// SECTIONS //////
+///////////////////*/
 
 .section{
 	clear: both;
 	padding: auto;
-
+	max-width: 50em;
+	margin: 0 auto;
 }
-
 
 .content-section {
 	margin-top: 1em;
@@ -173,21 +139,59 @@ img{
 	margin-top: 0;
 }
 
-.portfolio-img{
-	display: block;
-	max-width: 90%;
-	float: left;
+/*-------------------
+/////// ABOUT ///////
+-------------------*/
+
+#about-alli{
+	text-align: center;
+	margin-bottom: -0.25em;
+}
+
+
+#jobrole{
 	text-align: center;
 }
+
+
+/*-------------------
+///// PORTFOLIO /////
+-------------------*/
+
+.portfolioContainer{
+	overflow: hidden;
+	position: relative;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.portfolio-img{
+	display: block;
+	float: left;
+	text-align: center;
+    padding: 5px;
+/*    width: 100%;
+*/}
 
 .portfolio-img:hover{
 	opacity: 0.7;
 	display: auto;
 }
 
+/*-------------------
+////// CONTACT //////
+-------------------*/
 
+#contact{
+	text-align: center;
+}
 
-/*BUTTON STYLES */
+#contactinfo{ 
+	text-align: center; 
+	display: block;
+}
+
+/* button styles */
 .button {
 	height: 2em;
 	width: 10em;
@@ -197,7 +201,7 @@ img{
 	display: block;
 	border-radius: 0.5em;
 
-/*TEXT STYLES FOR BUTTON */
+/* text styles for buttons */
 	color: white;
 	text-align: center;
 	vertical-align: middle;
@@ -211,7 +215,7 @@ img{
 	background: rgb(68,44,121);
 }
 
-/*SOCIAL ICONS*/
+/* social icons */
 
 .social {
 	height:2em; 
@@ -230,7 +234,10 @@ img{
 	margin: 0;
 }
 
-/* FOOTER */
+
+/*-------------------
+////// FOOTER //////
+-------------------*/
 
 footer > .legaline{
 	font-size: .75em;
@@ -242,6 +249,10 @@ footer > .legaline{
 #contact > h3, h4{
 	margin: 10px;
 }
+
+
+
+
 
 /* LOGO PAGE */
 h1.portfoliotitle{
@@ -296,22 +307,20 @@ h1.portfoliotitle{
 }
 
 @media only screen and (max-width: 400px) {
-	.content-section > div {
-	    display: block;
-	}
-	header > nav ul li a {
-		padding: 0 1em;
+
+	header nav ul li a {
 		color: black;
 		text-decoration: none;
 	}
 
-	header > nav ul li a:hover {
+	header nav ul li a:hover {
 		padding: 10px;
 		color: rgb(68,44,121);
 		text-decoration: none;
+		text-align: center;
 	}
 
-	header > nav ul li a.navtext {
+	header nav ul li a.navtext {
 		font-size: 12px;
 		padding: 2px;
 	}
@@ -321,9 +330,7 @@ h1.portfoliotitle{
 		padding-left: 1em;
 	}
 
-	.portfolio-img{
-		width: 100%;
-	}
+
 }
 /*@media(max-width: 1121px){
 
