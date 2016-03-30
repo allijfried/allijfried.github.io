@@ -106,6 +106,10 @@ header >  nav ul li a:hover{
 	padding: 60px 50px 0px 50px;
 }
 
+.contentAll{
+	padding: 110px 50px 0px 50px;
+}
+
 p, a, img{
 	text-decoration: none;
 }
@@ -258,7 +262,6 @@ footer > .legaline{
 h1.portfoliotitle{
 	text-transform: uppercase;
 	font-weight: 300;
-	padding-left: 23px;
 	text-align: center;
 }
 
