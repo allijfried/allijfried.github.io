@@ -169,8 +169,9 @@ p.logotitle {
     height: auto;
     padding: 100px 0;
     text-align: center;
-/*    color: rgb(68,44,121);*/
-/*    background-color: #FFF;*/
+    background-image: url(../img/background1.png);
+    background-color: rgb(68,44,121);
+    color: #FFF;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -180,8 +181,6 @@ p.logotitle {
 .intro .intro-body {
     display: table-cell;
     vertical-align: middle;
-    background-color: rgb(68,44,121);
-    color: #FFF;
 }
 
 .intro .intro-body .brand-heading {
@@ -380,6 +379,11 @@ ul.banner-social-buttons {
 }
 
 @media(max-width:767px) {
+    .intro{
+        background-image: url(../img/backgroundsm.png);
+    }
+
+
     p.logotitle {
         float: left;
         padding-left: 15px;
