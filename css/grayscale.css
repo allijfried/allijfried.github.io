@@ -381,8 +381,20 @@ ul.banner-social-buttons {
 @media(max-width:767px) {
     .intro{
         background-image: url(../img/backgroundsm.png);
+        padding-bottom: 56px;
     }
 
+    .intro .intro-body .brand-heading {
+        padding-top: 29px;
+    }
+
+    .btn-circle {
+        width: 50px;
+        height: 50px;
+        margin-top: 15px;
+        padding: 7px 15px;
+        font-size: 26px;
+    }
 
     p.logotitle {
         float: left;
