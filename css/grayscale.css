@@ -479,19 +479,19 @@ body {
 
 .btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
     background: rgb(68,44,121);
-    border: 1px solid white;
+    border: 2px solid white;
     color: white;
 }
 
 .btn-default.active, .btn-default:focus, .open>.dropdown-toggle.btn-default {
     background: rgb(68,44,121);
-    border: 1px solid white;
+    border: 2px solid white;
     color: white;
 }
 
 .btn-default.active, .btn-default:hover, .open>.dropdown-toggle.btn-default {
     background: rgb(68,44,121);
-    border: 1px solid white;
+    border: 2px solid white;
     color: white;
 }
 
