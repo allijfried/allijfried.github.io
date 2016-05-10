@@ -145,6 +145,12 @@ p.logotitle {
 
 .aboutmetext{
     font-size: 16px;
+    text-align: left;
+}
+
+.aboutmesub{
+    font-size: 12px;
+    text-align: left;
 }
 
 .button:hover {
@@ -153,6 +159,7 @@ p.logotitle {
 
 p.aboutsites {
     font-size: 16px;
+    text-align: left;
 }
 
 @media(min-width:768px) {
@@ -313,9 +320,13 @@ p.aboutsites {
 
 @media(min-width:767px) {
     .content-section {
-    padding-top: 75px;
-    padding-bottom: 75px;
-}
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+    .contact {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
 
     .portfolio-section {
         padding: 100px 0;
