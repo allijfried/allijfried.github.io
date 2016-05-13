@@ -396,12 +396,8 @@ ul.banner-social-buttons {
     border-top: 1px solid rgb(68,44,121);
 }
 
-
-@media(max-width:1199px) {
-    ul.banner-social-buttons {
-        margin-top: 15px;
-    }
-
+ul.banner-social-buttons {
+    margin-top: 15px;
 }
 
 @media(max-width:767px) {
@@ -452,7 +448,6 @@ ul.banner-social-buttons {
 }
 
 footer {
-    padding: 20px 0;
     border-top: 2px solid rgb(68,44,121);
 }
 
@@ -461,7 +456,8 @@ footer p {
 }
 
 .copyright{
-    font-size: 1em;
+    font-size: 0.8em;
+    margin-top: 1em;
 }
 
 ::-moz-selection {
@@ -520,6 +516,14 @@ body {
 
 .orhere{
     margin: 10px 0 10px 0;
+}
+
+img.hover-img:hover {
+    opacity: 0.5;
+}
+
+img.portfolio-img {
+    margin: 0 auto;
 }
 
 /* SlidesJS Optional: If you'd like to use this design */

@@ -17,6 +17,9 @@
     <!-- Custom CSS -->
     <link href="../css/grayscale.css" rel="stylesheet">
 
+    <!-- Lightbox CSS -->
+    <link href="../css/lightbox.min.css" rel="stylesheet">
+
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
     <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet">
@@ -119,15 +122,25 @@
                         </div>
                     </div>
 
+
+
                      <div class="row">
                         <h3>Navigation Exploration</h3>
                         <div class="col-sm-12 portfolio-item">
                             <p class="aboutsites">The ideal target audiences for Bushido School of Karate are fitness-oriented adults of all ages, as well as parents with children of any age. Because of the wide age range of potential users, I had to make sure the navigation was very clearly laid out and simple to use. Below are examples of some of the navigation options explored.</p>
-                            <img src="../img/portfolio/bushido/hamburger-option-1.png" alt="Option 1" class="portfolio-img wireframe img-responsive" />
+                            <a href="../img/portfolio/bushido/hamburger-option-1.png" data-lightbox="Bushido-Option-1" data-title="Bushido Option 1">
+                                <img src="../img/portfolio/bushido/hamburger-option-1.png" alt="Option 1" class="portfolio-img wireframe img-responsive" />
+                            </a>
                                 <p class="aboutmesub">Option 1</p>
-                            <img src="../img/portfolio/bushido/hamburger-option-2.png" alt="Option 2" class="portfolio-img wireframe img-responsive" />
+                            
+                            <a href="../img/portfolio/bushido/hamburger-option-2.png" data-lightbox="Bushido-Option-2" data-title="Bushido Option 2">
+                                <img src="../img/portfolio/bushido/hamburger-option-2.png" alt="Option 2" class="portfolio-img wireframe img-responsive" />
+                            </a>                       
                                 <p class="aboutmesub">Option 2</p>
-                            <img src="../img/portfolio/bushido/hamburger-option-3.png" alt="Option 3" class="portfolio-img wireframe img-responsive" />
+
+                            <a href="../img/portfolio/bushido/hamburger-option-3.png" data-lightbox="Bushido-Option-3" data-title="Bushido Option 3">   
+                                <img src="../img/portfolio/bushido/hamburger-option-3.png" alt="Option 3" class="portfolio-img wireframe img-responsive" />
+                            </a>
                                 <p class="aboutmesub">Option 3</p>
                             
                             <p class="aboutsites">Below are the two versions of the opened navigation: one for desktop and one for mobile.​</p>
@@ -160,37 +173,20 @@
         </div>
     </section>
 
-
-    <hr class="divider">
-
-    <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Get in Touch.</h2>
-                    <a href="mailto:fried.allij@gmail.com?Subjectline=Hello%20Alli!" target="_blank" id="emailme" class="btn btn-default btn-md"><i class="fa fa-envelope fa-fw"></i> <span class="network-name">Say Hi!</span></a>
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <p class="orhere">or here:</p>
-                    </li><br>
-                    <li>
-                        <a href="https://twitter.com/allijfried" target="_blank" class="btn btn-default btn-md"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/allijfried" target="_blank" class="btn btn-default btn-md"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                    </li>
-                    <li>
-                        <a href="https://linkedin.com/in/allijfried" target="_blank" class="btn btn-default btn-md"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-
     <!-- Footer -->
     <footer>
         <div class="container text-center">
+            <ul class="list-inline banner-social-buttons">
+                <li><a href="mailto:fried.allij@gmail.com?Subjectline=Hello%20Alli!" target="_blank" id="emailme" class="btn btn-default btn-md"><i class="fa fa-envelope fa-fw"></i></a>  </li>
+                <li>
+                        <a href="https://twitter.com/allijfried" target="_blank" class="btn btn-default btn-md"><i class="fa fa-twitter fa-fw"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/allijfried" target="_blank" class="btn btn-default btn-md"><i class="fa fa-github fa-fw"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://linkedin.com/in/allijfried" target="_blank" class="btn btn-default btn-md"><i class="fa fa-linkedin fa-fw"></i></a>
+                    </li>
             <p class="copyright">Copyright &copy; AJF Designs 2016</p>
         </div>
     </footer>
@@ -214,6 +210,9 @@
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script type="text/javascript" src="../js/slideshow/jquery.slides.min.js"></script>
 
+
+    <!-- Lightbox -->
+    <script src="../js/lightbox.min.js"></script>
 
 </body>
 
