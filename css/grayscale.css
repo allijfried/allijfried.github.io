@@ -526,6 +526,11 @@ img.portfolio-img {
     margin: 0 auto;
 }
 
+.noncaps{
+    text-transform: lowercase; 
+    margin-top: -25px;
+}
+
 /* SlidesJS Optional: If you'd like to use this design */
 
     body {
