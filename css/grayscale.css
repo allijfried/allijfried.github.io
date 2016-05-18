@@ -150,12 +150,11 @@ p.logotitle {
 
 .aboutmesub{
     font-size: 12px;
-    text-align: left;
 }
 
-/*.listalignleft{
-    text-align: left;
-}*/
+.options{
+    margin: 20px 0 8px 0;    
+}
 
 .button:hover {
     background: rgb(68,44,121);
@@ -282,6 +281,8 @@ p.aboutsites {
 
 .topofpagepadding{
     padding-top: 50px;
+    margin-bottom: 15px;
+    font-size: 45px;
 }
 
 @-webkit-keyframes pulse {    
