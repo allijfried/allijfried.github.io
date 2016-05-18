@@ -153,6 +153,10 @@ p.logotitle {
     text-align: left;
 }
 
+/*.listalignleft{
+    text-align: left;
+}*/
+
 .button:hover {
     background: rgb(68,44,121);
 }
@@ -160,7 +164,20 @@ p.logotitle {
 p.aboutsites {
     font-size: 16px;
     text-align: left;
+    margin-bottom: 0px;
 }
+
+.aboutsitestable {
+    font-size: 16px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.usedicons{
+    width: 2em;
+    display: inline-block;
+}
+
 
 @media(min-width:768px) {
     .navbar-custom {
@@ -459,6 +476,7 @@ footer p {
     font-size: 0.8em;
     margin-top: 1em;
 }
+
 
 ::-moz-selection {
     text-shadow: none;
