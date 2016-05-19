@@ -177,6 +177,9 @@ p.aboutsites {
     display: inline-block;
 }
 
+.projectheading{
+    margin-bottom: 5px;
+}
 
 @media(min-width:768px) {
     .navbar-custom {
