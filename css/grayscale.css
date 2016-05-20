@@ -51,7 +51,7 @@ h2.section {
 }
 
 a {
-    color: #42dca3;
+    color: ;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -225,6 +225,7 @@ p.aboutsites {
 
 .intro .intro-body .intro-text {
     font-size: 18px;
+    font-color: #FFF;
 }
 
 @media(min-width:768px) {
@@ -240,6 +241,16 @@ p.aboutsites {
     .intro .intro-body .intro-text {
         font-size: 26px;
     }
+}
+
+a.intro-text {
+    color: #DBD3E0;
+    font-weight: bold;
+}
+
+a.intro-text:hover {
+    color: #FFF;
+    font-weight: bolder;
 }
 
 .btn-circle {
